@@ -1,0 +1,15 @@
+# dots-runtime-v1 candidate inputs; NOT a lockfile or proof of compatibility.
+# Target: standard CPython 3.12 on 64-bit glibc Linux.
+# Resolve in a temporary target-compatible build, then pin ALL dependencies.
+# Optional OCR/rendering capabilities are defined in docs/RUNTIME.md.
+numpy>=2.2.6,<3
+pandas>=2.3.3,<2.4
+openpyxl>=3.1.5,<3.2
+python-docx>=1.2,<1.3
+python-pptx>=1.0.2,<1.1
+lxml>=6,<7
+Pillow>=12,<13
+pypdf>=6,<7
+pdfplumber>=0.11,<0.12
+reportlab>=4.4,<5
+requests>=2.32.5,<3

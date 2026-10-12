@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "tool_id": "sum-demo",
+  "kind": "module",
+  "dependencies": [],
+  "operations": {
+    "sum": {
+      "script": "sum.py",
+      "timeout_seconds": 10,
+      "side_effects": "none",
+      "cases": [
+        {"input": {"values": [2, 3]}, "expected": {"total": 5}},
+        {"input": {"values": []}, "expected": {"total": 0}}
+      ]
+    }
+  }
+}
