@@ -20,7 +20,7 @@ Last Reviewed: 2026-10-12
 - 已实现标准库静态盘点、纯准入判定，以及显式 local-demo 模式的快照／验证／名单／调用闭环。
 - 本地执行适配器只运行可信合成 Python 脚本；无参数开启云端模式，云端入口默认返回 CLOUD_ADAPTER_UNAVAILABLE。
 - 纯 Skill 加载、真实插件、宿主身份隔离及全调用旁路封闭尚未实现。当前受控文件权限只是本地演示约束，不能抵御同用户代码。
-- 本地接口与证据格式见 `docs/CONTRACTS/local-demo.md`；使用方式见 README.md。
+- 本地接口与证据格式见 `docs/CONTRACTS/local-demo.md`；演示命令见 `docs/USAGE.md`。
 
 ## Technology Stack
 
